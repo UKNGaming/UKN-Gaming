@@ -9,3 +9,4 @@ scotpol_Zamac_Back.paa
 scotpol_Zamac_Cab.paa
 scotpol_hb.paa
 scotpol_quad.paa
+lincpol_offroader.paa
