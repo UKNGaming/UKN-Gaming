@@ -501,8 +501,11 @@ class LifeCfgVehicles {
             { "Green", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport06_co.paa"
             } },
-            { "Police", "cop", {
-                "#(ai,64,64,1)Fresnel(1.3,7)"
+			{ "RCU Sport", "cop", {
+                "\textures\police\hb_sport_RCU.paa"
+            } },
+            { "NHS Sport", "med", {
+                "\textures\medic\sport_med.paa"
             } }
         };
     };
@@ -514,8 +517,8 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 1250;
         textures[] = {
-            { "Brown", "cop", {
-                "\A3\Soft_F\Quadbike_01\Data\Quadbike_01_co.paa"
+            { "Police Quad", "cop", {
+                "textures\police\scotpol_quad.paa"
             } },
             { "Digi Desert", "reb", {
                 "\A3\Soft_F\Quadbike_01\Data\quadbike_01_opfor_co.paa"
@@ -555,8 +558,9 @@ class LifeCfgVehicles {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
                 "\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"
             } },
-            { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            { "Police Zamac", "cop", {
+                "textures\police\scotpol_Zamac_Cab.paa",
+				"textures\police\scotpol_Zamac_Back.paa"
             } }
         };
     };
@@ -572,8 +576,9 @@ class LifeCfgVehicles {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
                 "\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"
             } },
-            { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+			{ "Police Zamac", "cop", {
+                "textures\police\scotpol_Zamac_Cab.paa",
+				"textures\police\scotpol_Zamac_Back.paa"
             } }
         };
     };
@@ -617,6 +622,9 @@ class LifeCfgVehicles {
             } },
             { "Black", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa"
+            } },
+			{ "Police", "cop", {
+                "textures\police\scotpol_hb.paa"
             } }
         };
     };
@@ -640,6 +648,18 @@ class LifeCfgVehicles {
             { "Police", "cop", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa"
             } },
+			{ "Medic SUV", "med", {
+                "textures\medic\suv_medic.paa"
+            } },
+			{ "Police SUV Black", "cop", {
+                "textures\police\scotpol_suv_black.paa"
+            } },
+			{ "Police SUV White", "cop", {
+                "textures\police\scotpol_suv_white.paa"
+            } },
+			{ "Police SUV RCU", "cop", {
+                "textures\police\suv_RCU.paa"
+            } }
         };
     };
 
@@ -682,6 +702,9 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 15000;
         textures[] = {
+			{ "Police Hunter", "cop", {
+                "textures\police\hunter_cop.paa"
+            } },
             { "Black", "cop", {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
@@ -751,8 +774,11 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 375000;
         textures[] = {
-            { "Black", "cop", {
-                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"
+            { "NHS Orca", "med", {
+                "textures\medic\orca_med.paa"
+            } },
+			{ "NPAS Orca", "cop", {
+                "textures\police\NPAS_Orca.paa"
             } },
             { "White / Blue", "civ", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa"
@@ -762,6 +788,22 @@ class LifeCfgVehicles {
             } },
             { "Desert Digi", "reb", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
+            } },
+            { "EMS White", "med", {
+                "#(argb,8,8,3)color(1,1,1,0.8)"
+            } }
+        };
+    };
+	
+	class I_Heli_light_03_unarmed_F {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+        garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 375000;
+        textures[] = {
+			{ "NPAS Hellcat", "cop", {
+                "textures\police\hellcat_cop.paa"
             } },
             { "EMS White", "med", {
                 "#(argb,8,8,3)color(1,1,1,0.8)"
