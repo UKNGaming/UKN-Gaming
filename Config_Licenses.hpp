@@ -63,6 +63,15 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
+	
+	class gangtemplatelicenseCHANGENAME {
+        variable = "STR_gangname_template";
+        displayName = "GangNameTemplate";
+        price = 999999999999;
+        illegal = false;
+        side = "civ";
+    };
+	
 
     //Processing Licenses
     class oil {
