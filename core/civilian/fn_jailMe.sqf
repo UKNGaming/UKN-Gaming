@@ -12,12 +12,17 @@ params [
 	["_bad",false,[false]]
 ];
 
+_clothings = ["U_C_Poloshirt_blue","U_C_Poloshirt_burgundy","U_C_Poloshirt_stripped","U_C_Poloshirt_tricolour","U_C_Poloshirt_salmon","U_C_Poloshirt_redwhite","U_C_Commoner1_1"];
+ 
+
+["U_B_CombatUniform_mcam",true] call life_fnc_handleItem; waitUntil {uniform player == "U_B_CombatUniform_mcam"}; removeVest player; removeHeadgear player; 
 
 if(_bad) then { _time = time + 1100; } else { _time = time + (15 * 60); };
 
 if(count _ret > 0) then { life_bail_amount = SEL(_ret,3); } else { life_bail_amount = 1500; _time = time + (10 * 60); };
 _esc = false;
 _bail = false;
+
 
 [_bad] spawn {
 	life_canpay_bail = false;

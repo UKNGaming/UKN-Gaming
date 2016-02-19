@@ -20,5 +20,6 @@ player assignItem "ItemCompass";
 player addItem "ItemWatch";
 player assignItem "ItemWatch";
 
+[] call life_fnc_Uniformscolor;
 [] call life_fnc_playerSkins;
 [] call life_fnc_saveGear;

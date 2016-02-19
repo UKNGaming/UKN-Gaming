@@ -22,3 +22,4 @@ player assignItem "ItemWatch";
 
 [] call life_fnc_playerSkins;
 [] call life_fnc_saveGear;
+[] call life_fnc_Uniformscolor;

@@ -21,4 +21,5 @@ CASH = CASH - _price;
 
 life_clothesPurchased = true;
 [] call life_fnc_playerSkins;
+[] call life_fnc_Uniformscolor;
 closeDialog 0;

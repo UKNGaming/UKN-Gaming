@@ -10,3 +10,8 @@ scotpol_Zamac_Cab.paa
 scotpol_hb.paa
 scotpol_quad.paa
 lincpol_offroader.paa
+
+pcso_uniform.paa
+police_low.paa
+police_high.paa
+sco19.paa

@@ -16,22 +16,21 @@ if(isNull _unit OR _item == "") exitWith {}; //Bad thingies?
 switch(playerSide) do
 {
 	case west: {
-		if(_item in ["U_Rangemaster"]) then {
-			[] call life_fnc_playerSkins;
+		[] call life_fnc_reloadUniforms;
 		};
 	};
 	case civilian: {
 		//Currently stoping the civilians from taking the Rangemaster clothing from medics or cops.
-		if(_item in ["U_Rangemaster"]) then {
+		if(_item in ["U_I_CombatUniform"]) then {
 			[_item,false,false,false,false] call life_fnc_handleItem;
+			[] call life_fnc_reloadUniforms;
 		};
 		if(_item in ["U_C_Poloshirt_blue","U_C_Poloshirt_burgundy","U_C_Poloshirt_stripped","U_C_Poloshirt_tricolour","U_C_Poloshirt_salmon","U_C_Poloshirt_redwhite","U_C_Commoner1_1"]) then {
 			[] call life_fnc_playerSkins;
 		};
 	};
 	case independent: {
-		if(_item in ["U_Rangemaster"]) then {
-			[] call life_fnc_playerSkins;
+		[] call life_fnc_Uniformscolor;
 		};
 	};
 };

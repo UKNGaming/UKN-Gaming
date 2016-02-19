@@ -91,3 +91,4 @@ if(!(EQUAL(_seco,""))) then {_handle = [_seco,true,false,false,false] spawn life
 } foreach (_hItems);
 
 [] call life_fnc_playerSkins;
+[] call life_fnc_Uniformscolor;
