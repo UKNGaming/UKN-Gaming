@@ -1,0 +1,26 @@
+extDB2: Version: 70
+extDB2: https://github.com/Torndeco/extDB2
+extDB2: Windows Version
+Message: All development for extDB2 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB2 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 20/02/15
+
+
+extDB2: Found extdb-conf.ini
+extDB2: Detected 32 Cores, Setting up 6 Worker Threads
+
+
+[11:25:58:303010 +02:00] [Thread 15012] extDB2: No Config Option Found: ArmaLife
+[11:26:32:662119 +02:00] [Thread 15012] extDB2: Error Unknown Protocol: 4354  Input String: 2:4354:SELECT pid, pos FROM containers WHERE pid='76561198157166946' AND owned='1'
+[11:26:32:665222 +02:00] [Thread 15012] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:26:32:665442 +02:00] [Thread 15012] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:27:11:192717 +02:00] [Thread 15012] extDB2: Error Unknown Protocol: 4354  Input String: 2:4354:SELECT houses.id, houses.pid, houses.pos, players.name FROM houses, players WHERE houses.owned='1'
+[11:27:11:193087 +02:00] [Thread 15012] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:27:11:193229 +02:00] [Thread 15012] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:27:31:597515 +02:00] [Thread 15012] extDB2: Error Unknown Protocol: 4354  Input String: 2:4354:SELECT pid, pos FROM containers WHERE pid='76561198157166946' AND owned='1'
+[11:27:31:597910 +02:00] [Thread 15012] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:27:31:598068 +02:00] [Thread 15012] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:28:06:882898 +02:00] [Thread 15012] extDB2: Stopping ...

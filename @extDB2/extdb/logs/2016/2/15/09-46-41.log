@@ -1,0 +1,974 @@
+extDB2: Version: 70
+extDB2: https://github.com/Torndeco/extDB2
+extDB2: Windows Version
+Message: All development for extDB2 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB2 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 20/02/15
+
+
+extDB2: Found extdb-conf.ini
+extDB2: Detected 32 Cores, Setting up 6 Worker Threads
+
+
+[10:46:41:738705 +02:00] [Thread 20276] extDB2: No Config Option Found: ArmaLife
+[10:55:49:538157 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT pid, pos FROM containers WHERE pid='76561198157166946' AND owned='1'
+[10:55:49:541795 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[10:55:49:542145 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:14:809881 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT houses.id, houses.pid, houses.pos, players.name FROM houses, players WHERE houses.owned='1'
+[11:23:14:810226 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:14:810382 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:21:971918 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:21:972216 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:21:972489 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:22:123540 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:22:123873 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:22:124033 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:22:278008 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:22:278316 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:22:278489 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:22:471872 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:22:472248 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:22:472389 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:22:624446 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:22:624796 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:22:624990 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:22:797239 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:22:797612 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:22:797836 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:22:927649 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:22:928016 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:22:928236 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:23:103459 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:23:103744 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:23:103961 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:23:255987 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:23:256377 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:23:256571 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:23:450817 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:23:451216 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:23:451416 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:23:583275 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:23:583589 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:23:583735 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:24:116097 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:24:116436 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:24:116573 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:24:292520 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:24:292788 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:24:292919 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:24:464828 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:24:465169 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:24:465330 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:24:599279 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:24:599530 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:24:599666 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:24:750117 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:24:750421 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:24:750563 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:24:883532 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:24:883789 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:24:883924 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:25:033364 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:25:033718 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:25:033873 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:25:167689 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:25:167963 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:25:168109 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:25:319659 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:25:320008 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:25:320188 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:25:453975 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:25:454307 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:25:454553 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:25:601892 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:25:602276 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:25:602443 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:25:735133 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:25:735430 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:25:735582 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:25:887184 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:25:887419 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:25:887639 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:26:019675 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:26:019958 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:26:020112 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:26:171461 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:26:171743 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:26:171840 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:26:349986 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:26:350261 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:26:350421 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:26:500813 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:26:501093 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:26:501233 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:26:640178 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:26:640563 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:26:640742 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:26:784067 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:26:784391 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:26:784545 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:26:939948 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:26:940210 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:26:940361 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:27:089363 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:27:089671 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:27:089834 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:27:222173 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:27:222451 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:27:222599 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:27:392969 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:27:393365 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:27:393564 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:27:525616 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:27:525905 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:27:526043 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:27:677845 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:27:678156 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:27:678306 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:28:115149 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:28:115426 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:28:115568 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:28:264458 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:28:264748 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:28:264883 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:28:396256 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:28:396549 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:28:396696 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:28:545820 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:28:546171 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:28:546307 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:28:678601 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:28:678886 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:28:679019 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:28:829976 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:28:830283 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:28:830422 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:28:962830 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:28:963109 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:28:963251 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:29:115287 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:29:115623 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:29:115810 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:29:247038 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:29:247338 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:29:247472 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:29:399526 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:29:399808 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:29:399946 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:29:532602 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:29:532874 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:29:533020 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:29:682821 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:29:683126 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:29:683276 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:29:836579 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:29:836848 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:29:837005 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:29:989120 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:29:989447 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:29:989602 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:30:122112 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:30:122401 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:30:122548 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:30:274411 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:30:274739 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:30:274902 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:30:429369 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:30:429636 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:30:429772 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:30:579670 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:30:580038 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:30:580202 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:30:712514 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:30:712789 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:30:712924 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:30:861964 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:30:862315 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:30:862481 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:30:994112 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:30:994397 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:30:994534 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:31:144226 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:31:144519 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:31:144670 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:31:278024 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:31:278322 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:31:278455 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:31:429525 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:31:429856 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:31:430011 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:31:584372 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:31:584647 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:31:584788 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:31:736786 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:31:737167 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:31:737333 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:31:867729 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:31:868006 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:31:868159 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:32:042151 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:32:042495 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:32:042633 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:32:175883 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:32:176207 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:32:176330 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:32:327374 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:32:327737 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:32:327891 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:32:460245 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:32:460512 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:32:460657 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:32:610626 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:32:610968 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:32:611100 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:32:744460 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:32:744735 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:32:744871 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:32:895153 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:32:895562 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:32:895736 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:33:026779 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:33:027083 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:33:027300 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:33:177171 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:33:177487 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:33:177633 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:33:309933 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:33:310193 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:33:310326 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:33:461438 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:33:461827 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:33:462028 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:33:595651 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:33:595928 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:33:596097 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:33:747719 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:33:748089 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:33:748266 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:33:881540 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:33:881854 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:33:882002 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:34:033002 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:34:033331 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:34:033481 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:34:166960 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:34:167678 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:34:168262 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:34:338293 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:34:338631 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:34:338785 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:34:492891 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:34:493423 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:34:493584 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:34:643622 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:34:643999 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:34:644506 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:34:801241 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:34:822298 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:34:822632 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:35:016929 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:35:017393 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:35:017908 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:35:150359 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:35:150810 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:35:151041 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:35:301212 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:35:301722 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:35:301916 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:35:434010 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:35:434857 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:35:435519 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:35:603465 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:35:604049 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:35:604528 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:35:738724 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:35:739138 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:35:739337 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:35:910805 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:35:911384 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:35:912098 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:36:047437 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:36:069314 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:36:070011 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:36:240140 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:36:240702 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:36:241387 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:36:396228 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:36:396790 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:36:397103 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:36:568435 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:36:568903 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:36:569151 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:36:702105 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:36:702893 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:36:703556 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:36:875723 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:36:876139 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:36:876498 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:37:011950 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:37:033382 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:37:033838 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:37:205089 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:37:205488 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:37:205689 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:37:341684 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:37:361885 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:37:362661 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:37:532388 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:37:532944 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:37:533423 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:37:666228 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:37:666716 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:37:666880 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:37:815668 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:37:816177 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:37:816392 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:37:947526 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:37:947801 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:37:948017 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:38:097960 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:38:098331 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:38:098499 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:38:233162 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:38:233549 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:38:233810 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:38:383218 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:38:383787 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:38:383942 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:38:517036 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:38:517300 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:38:517435 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:38:667486 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:38:667790 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:38:667899 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:38:800339 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:38:800612 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:38:800766 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:38:950738 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:38:951093 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:38:951239 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:39:082524 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:39:082810 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:39:082957 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:39:235997 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:39:236301 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:39:236443 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:39:369824 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:39:370109 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:39:370246 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:39:521357 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:39:521680 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:39:521818 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:39:654493 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:39:654784 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:39:655015 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:39:804560 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:39:804857 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:39:805076 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:39:936565 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:39:936843 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:39:936977 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:40:088810 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:40:089101 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:40:089235 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:40:220826 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:40:221087 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:40:221222 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:40:373105 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:40:373483 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:40:373702 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:40:505179 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:40:505450 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:40:505593 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:40:656347 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:40:656649 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:40:656790 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:40:788345 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:40:788631 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:40:788785 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:40:939628 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:40:939983 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:40:940129 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:41:072394 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:41:072668 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:41:072811 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:41:224912 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:41:225216 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:41:225384 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:41:355726 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:41:355997 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:41:356129 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:41:506266 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:41:506622 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:41:506761 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:41:640116 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:41:640427 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:41:640559 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:41:791478 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:41:791820 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:41:791960 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:41:921469 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:41:921722 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:41:921854 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:42:069733 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:42:070010 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:42:070200 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:42:192774 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:42:193048 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:42:193194 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:43:790393 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:43:790747 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:43:790887 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:43:924258 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:43:924512 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:43:924646 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:44:076723 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:44:077066 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:44:077218 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:44:210486 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:44:210761 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:44:210901 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:44:361959 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:44:362281 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:44:362441 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:44:494124 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:44:494399 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:44:494536 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:44:645221 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:44:645521 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:44:645662 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:44:778161 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:44:778426 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:44:778584 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:44:929461 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:44:929767 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:44:929915 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:45:061218 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:45:061487 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:45:061997 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:45:231811 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:45:232095 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:45:232236 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:45:365286 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:45:365560 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:45:366011 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:45:538098 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:45:538417 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:45:538910 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:45:670300 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:45:670867 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:45:671470 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:45:838347 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:45:838641 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:45:838777 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:45:972362 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:45:972659 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:45:972795 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:46:122651 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:46:123361 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:46:123590 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:46:278095 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:46:278799 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:46:279159 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:46:450965 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:46:451266 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:46:451408 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:46:584659 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:46:584965 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:46:585530 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:46:757251 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:46:757556 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:46:758104 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:46:889241 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:46:889507 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:46:889643 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:47:039491 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:47:040299 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:47:040949 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:47:171684 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:47:171947 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:47:172410 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:47:322791 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:47:323293 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:47:323620 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:47:456531 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:47:457145 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:47:457800 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:47:650105 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:47:650748 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:47:651457 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:47:784047 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:47:784321 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:47:784458 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:47:934358 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:47:934671 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:47:934820 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:48:068243 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:48:068524 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:48:068734 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:48:240683 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:48:241026 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:48:241160 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:48:394531 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:48:394816 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:48:394979 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:48:562957 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:48:563261 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:48:563399 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:48:737781 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:48:738031 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:48:738169 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:48:910297 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:48:910585 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:48:910761 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:49:066114 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:49:066552 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:49:066792 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:49:218625 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:49:218908 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:49:219054 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:49:352461 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:49:352761 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:49:352923 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:49:526942 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:49:527252 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:49:527393 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:49:661303 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:49:661566 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:49:661710 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:49:811158 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:49:811461 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:49:811612 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:49:942939 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:49:943257 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:49:943422 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:50:116456 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:50:116775 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:50:116928 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:50:248287 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:50:248566 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:50:248710 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:50:399786 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:50:400080 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:50:400220 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:50:531710 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:50:532012 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:50:532146 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:50:683024 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:50:683349 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:50:683482 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:50:816719 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:50:817024 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:50:817172 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:50:967261 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:50:967608 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:50:967742 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:51:100085 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:51:100371 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:51:100516 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:51:251620 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:51:251980 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:51:252123 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:51:382415 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:51:382714 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:51:382880 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:51:533806 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:51:534137 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:51:534272 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:51:666639 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:51:666905 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:51:667059 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:51:818043 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:51:818393 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:51:818546 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:51:950909 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:51:951260 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:51:951405 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:52:102364 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:52:102704 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:52:102865 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:52:234166 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:52:234429 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:52:234567 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:52:386658 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:52:386934 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:52:387041 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:52:518653 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:52:518955 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:52:519091 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:52:669892 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:52:670255 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:52:670400 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:52:803881 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:52:804131 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:52:804264 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:52:953174 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:52:953495 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:52:953634 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:53:087859 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:53:088183 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:53:088422 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:53:237523 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:53:237887 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:53:238022 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:53:371509 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:53:371793 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:53:371931 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:53:523754 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:53:524064 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:53:524214 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:53:657588 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:53:657872 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:53:658006 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:53:810025 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:53:810341 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:53:810481 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:53:942835 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:53:943143 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:53:943284 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:54:093320 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:54:093669 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:54:093816 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:54:225330 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:54:225603 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:54:225735 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:54:375838 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:54:376194 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:54:376393 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:54:508641 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:54:508878 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:54:509027 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:54:657788 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:54:658292 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:54:658506 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:54:790672 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:54:790912 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:54:791079 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:54:939079 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:54:939567 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:54:939788 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:55:071879 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:55:072113 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:55:072267 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:55:223354 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:55:223689 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:55:223885 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:55:356282 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:55:356580 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:55:356724 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:55:508617 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:55:508941 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:55:509082 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:55:640434 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:55:640730 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:55:640881 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:55:791889 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:55:792245 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:55:792412 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:55:924951 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:55:925215 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:55:925350 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:56:076219 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:56:076567 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:56:076748 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:56:208089 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:56:208382 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:56:208530 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:56:360423 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:56:360759 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:56:360948 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:56:494690 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:56:495045 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:56:495239 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:56:645755 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:56:646159 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:56:646295 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:56:778436 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:56:778722 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:56:778894 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:56:930979 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:56:931299 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:56:931463 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:57:064055 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:57:064336 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:57:064469 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:57:214255 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:57:214612 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:57:214764 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:57:343187 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:57:343545 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:57:343713 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:57:493547 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:57:493873 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:57:494014 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:57:625341 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:57:625646 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:57:625783 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:57:775810 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:57:776179 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:57:776334 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:57:906695 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:57:907092 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:57:907332 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:58:058055 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:58:058417 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:58:058586 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:58:191993 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:58:192281 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:58:192445 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:58:343339 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:58:343702 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:58:343864 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:58:474193 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:58:474477 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:58:474633 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:58:624661 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:58:625023 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:58:625175 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:58:757457 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:58:757730 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:58:757966 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:58:907985 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:58:908317 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:58:908482 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:59:037691 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:59:038000 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:59:038165 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:59:186190 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:59:186538 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:59:186702 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:59:319154 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:59:319441 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:59:319588 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:59:469442 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:59:469740 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:59:469884 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:59:601264 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:59:601543 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:59:601688 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:59:774724 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:23:59:775060 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:59:775205 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:23:59:907572 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:23:59:907858 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:23:59:908031 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:00:059031 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:00:059411 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:00:059560 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:00:191882 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:00:192204 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:00:192398 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:00:343281 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:00:343696 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:00:343902 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:00:497426 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:00:497752 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:00:497904 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:00:649593 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:00:649927 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:00:650074 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:00:782318 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:00:782599 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:00:782759 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:00:933835 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:00:934161 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:00:934298 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:01:068885 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:01:069199 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:01:069384 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:01:221127 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:01:221440 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:01:221590 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:01:375976 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:01:376248 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:01:376381 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:16:907177 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:16:907635 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:16:907778 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:17:061991 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:17:062289 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:17:062433 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:17:212517 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:17:212921 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:17:213124 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:17:365355 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:17:365626 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:17:365762 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:17:514755 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:17:515111 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:17:515251 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:17:670872 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:17:671186 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:17:671387 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:17:821103 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:17:821424 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:17:821689 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:17:977169 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:17:977472 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:17:977615 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:18:129318 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:18:129652 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:18:129802 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:18:284125 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:18:284408 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:18:284551 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:18:456683 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:18:457024 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:18:457166 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:18:610602 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:18:610890 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:18:611026 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:18:759953 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:18:760227 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:18:760375 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:18:913135 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:18:913462 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:18:913657 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:19:065240 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:19:065613 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:19:065822 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:19:217162 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:19:217428 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:19:217587 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:19:368552 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:19:368913 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:19:369076 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:19:545602 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:19:545894 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:19:546044 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:19:696856 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:19:697230 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:19:697393 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:19:854928 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:19:855263 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:19:855491 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:20:138298 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:20:138599 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:20:138812 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:20:271307 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:20:271586 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:20:271720 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:20:423553 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:20:423907 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:20:424128 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:20:557492 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:20:557760 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:20:557897 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:20:708857 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:20:709158 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:20:709309 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:20:841671 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:20:841975 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:20:842113 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:20:992138 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:20:992540 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:20:992702 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:21:125107 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:21:125385 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:21:125526 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:21:276404 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:21:276714 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:21:276855 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:21:409351 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:21:409630 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:21:409762 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:21:561717 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:21:562075 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:21:562217 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:21:693489 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:21:693750 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:21:693944 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:21:845978 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:21:846322 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:21:846492 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:21:977777 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:21:978106 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:21:978271 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:22:129192 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:22:129543 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:22:129681 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:22:262219 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:22:262524 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:22:262669 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:22:414484 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:22:414845 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:22:414989 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:22:546293 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:22:546581 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:22:546732 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:22:697751 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:22:698095 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:22:698245 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:22:829941 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:22:830213 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:22:830354 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:23:004068 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:23:004378 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:23:004521 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:23:137949 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:23:138220 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:23:138362 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:23:287325 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:23:287653 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:23:287798 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:23:419071 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:23:419333 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:23:419501 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:23:568595 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:23:568910 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:23:569078 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:23:700418 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:23:700714 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:23:700855 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:23:852841 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:23:853157 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:23:853310 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:23:987656 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:23:987944 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:23:988106 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:24:140156 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:24:140538 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:24:140727 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:24:272918 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:24:273200 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:24:273334 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:24:424421 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:24:424822 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:24:424987 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:24:557279 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:24:557593 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:24:557826 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:24:708670 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:24:709017 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:24:709180 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:24:841511 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:24:841816 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:24:841952 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:24:993988 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:24:994318 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:24:994471 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:25:126929 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:25:127228 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:25:127387 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:25:278230 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:25:278564 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:25:278722 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:25:412118 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:25:412402 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:25:412568 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:25:563528 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:25:563842 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:25:563981 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:25:696399 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:25:696700 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:25:696837 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:25:848794 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name FROM players WHERE playerid='76561198157166946'
+[11:24:25:849091 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:25:849227 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:26:395056 +02:00] [Thread 20276] extDB2: Error Unknown Protocol: 1461  Input String: 2:1461:SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist, cop_stats FROM players WHERE playerid='76561198157166946'
+[11:24:26:395629 +02:00] [Thread 20276] extDB2: Error: Syntax error: Not a valid integer: Error Unknown Protocol
+[11:24:26:395786 +02:00] [Thread 20276] extDB2: Error: Input String 4:Error Unknown Protocol
+[11:24:29:391124 +02:00] [Thread 20276] extDB2: Stopping ...
